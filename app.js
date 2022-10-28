@@ -38,8 +38,8 @@ app.get('/test', function (request, response) {
 app.get('/test2', function (request, response) {
     //   response.send('test page');
       response.render('test2');
-    })
 
+    })
 //3. 로컬 서버 동작
 //app.linsten도 매개변수(인지)를 두 개 받는다.
 //서버를 실행시켰을 떄 이 포트번호로 실행시킨다.
